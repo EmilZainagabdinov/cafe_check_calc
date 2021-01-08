@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import './App.css';
-import ModeSelectRadio from "./components/ModeSelectRadio/ModeSelectRadio";
-import EvenMode from "./containers/EvenMode/EvenMode";
-import IndividualMode from "./containers/IndividualMode/IndividualMode";
+import ModeSelectRadio from "../../components/ModeSelectRadio/ModeSelectRadio";
+import EvenMode from "../EvenMode/EvenMode";
+import IndividualMode from "../IndividualMode/IndividualMode";
 
 const App = () => {
-  const [calcMode, setCalcMode] = useState(null);
+  const [calcMode, setCalcMode] = useState('even');
 
   let calcBlock = null;
 
