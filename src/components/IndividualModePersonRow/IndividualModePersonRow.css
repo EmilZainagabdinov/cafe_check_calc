@@ -1,0 +1,14 @@
+.personRow {
+  display: flex;
+  margin-bottom: 20px;
+  column-gap: 10px;
+}
+
+.personName {
+  flex-grow: 1;
+  margin-right: 3%;
+}
+
+.personIndividualSum {
+  width: 100px;
+}
