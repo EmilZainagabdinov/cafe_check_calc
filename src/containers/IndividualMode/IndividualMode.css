@@ -1,0 +1,21 @@
+.inputRow {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.inputLabel {
+  flex-grow: 1;
+}
+
+.inputField {
+  width: 40%;
+}
+
+.inputUnits {
+  min-width: 6%;
+  margin-left: 10px;
+}
+
+.addPersonButton {
+  margin-bottom: 40px;
+}
