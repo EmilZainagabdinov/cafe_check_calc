@@ -1,3 +1,24 @@
 .App {
-  text-align: center;
+  margin: 30px auto 0;
+  text-align: left;
+  width: 40%;
+  border: 3px solid slategray;
+  border-radius: 6px;
+}
+
+.modeSelectBlock,
+.evenModeBlock,
+.individualModeBlock,
+.resultBlock {
+  padding: 30px;
+}
+
+.modeSelectBlock,
+.evenModeBlock,
+.individualModeBlock {
+  border-bottom: 1px solid slategray;
+}
+
+p {
+  margin: 5px 0;
 }
